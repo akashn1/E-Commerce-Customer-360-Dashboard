@@ -95,11 +95,9 @@ E-Commerce-Customer360-Fabric/
 
 ## 📸 Dashboard Preview
 
-> Add your dashboard screenshot below.
+<img width="2732" height="1438" alt="4D2540DA-913F-45C7-9CC6-538EC4C39AAC" src="https://github.com/user-attachments/assets/7dc856fb-6c0a-4f63-822d-91be5d1d451a" />
 
-```markdown
-![Dashboard](Images/dashboard.png)
-```
+
 
 ---
 
