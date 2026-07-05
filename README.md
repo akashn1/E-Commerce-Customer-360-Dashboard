@@ -1,66 +1,74 @@
-# E-Commerce-Customer-360-Dashboard
-📌 Overview
-This project demonstrates an end-to-end Microsoft Fabric Data Engineering workflow by building an E-Commerce Customer 360 Dashboard. It was created to gain hands-on experience with the Microsoft Fabric ecosystem and understand how its core components work together—from data ingestion to business reporting.
-The project uses PySpark for data transformation, Delta Tables for optimized storage, and Power BI for interactive analytics.
-🚀 Project Architecture
-Parquet Files
-      │
-      ▼
-Microsoft Fabric Lakehouse
-      │
-      ▼
-PySpark Data Cleaning & Transformation
-      │
-      ▼
-Delta Tables
-      │
-      ▼
-Customer 360 Data Model
-      │
-      ▼
-Power BI Dashboard
-🛠️ Tech Stack
-Microsoft Fabric
-Fabric Lakehouse
-PySpark
-Delta Lake
-Power BI
-Parquet Files
-📂 Dataset
-The project uses five datasets:
-Customers
-Orders
-Payments
-Support Tickets
-Web Activities
-⚙️ Workflow
-1. Data Ingestion
-Loaded Parquet files into Microsoft Fabric Lakehouse.
-Created Delta tables for efficient storage.
-2. Data Transformation
-Performed data cleaning using PySpark:
-Removed duplicate records
-Handled missing values
-Standardized date formats
-Standardized text values
-Corrected data types
-3. Customer 360 Model
-Integrated multiple datasets to create a unified customer view.
-4. Dashboard Development
-Built an interactive Power BI dashboard to analyze:
-Customer information
-Sales performance
-Payment insights
-Support ticket analysis
-Customer web activity
-📊 Dashboard Features
-Customer Overview
-Sales Analysis
-Payment Summary
-Support Ticket Insights
-Customer Activity Tracking
-📁 Repository Structure
-📦 E-Commerce-Customer360-Fabric
+# 🛒 E-Commerce Customer 360 Dashboard using Microsoft Fabric
+
+## 📖 Overview
+
+This project demonstrates an end-to-end Data Engineering workflow using **Microsoft Fabric**. The primary objective of this project is to gain hands-on experience with the Microsoft Fabric ecosystem by building a Customer 360 solution from raw data ingestion to interactive business reporting.
+
+The project covers data ingestion, transformation, data modeling, and visualization using Microsoft Fabric services such as Lakehouse, Spark Notebooks, Delta Tables, and Power BI.
+
+---
+
+## 🚀 Project Workflow
+
+- Load raw Parquet datasets into Microsoft Fabric Lakehouse
+- Transform and clean data using PySpark
+- Store processed data as Delta Tables
+- Build a Customer 360 data model
+- Create an interactive Power BI dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+- Microsoft Fabric
+- Fabric Lakehouse
+- PySpark
+- Delta Lake
+- Power BI
+- Parquet
+
+---
+
+## 📂 Dataset
+
+The project consists of the following datasets:
+
+- Customers
+- Orders
+- Payments
+- Support Tickets
+- Web Activities
+
+---
+
+## ✨ Features
+
+- Data ingestion from Parquet files
+- Data cleaning using PySpark
+- Duplicate and null value handling
+- Data type standardization
+- Delta Table creation
+- Customer 360 data integration
+- Interactive Power BI dashboard
+
+---
+
+## 📊 Dashboard Insights
+
+The dashboard provides insights into:
+
+- Customer Overview
+- Order Analysis
+- Payment Summary
+- Support Ticket Analysis
+- Customer Web Activity
+
+---
+
+## 📁 Project Structure
+
+```text
+E-Commerce-Customer360-Fabric/
 │
 ├── Data/
 │   ├── customers.parquet
@@ -71,8 +79,8 @@ Customer Activity Tracking
 │
 ├── Notebooks/
 │   ├── Data_Ingestion.ipynb
-│   ├── Data_Cleaning.ipynb
-│   └── Customer360_Model.ipynb
+│   ├── Data_Transformation.ipynb
+│   └── Customer360.ipynb
 │
 ├── Dashboard/
 │   └── ECommerce_Customer360.pbix
@@ -81,26 +89,38 @@ Customer Activity Tracking
 │   └── dashboard.png
 │
 └── README.md
-🎯 Learning Outcomes
-Through this project, I gained practical experience with:
-Microsoft Fabric Workspace
-Lakehouse architecture
-Spark Notebooks
-PySpark transformations
-Delta Tables
-Data Modeling
-Power BI integration
-End-to-end Data Engineering workflow
-📷 Dashboard Preview
-(Add a screenshot of your dashboard here.)
+```
+
+---
+
+## 📸 Dashboard Preview
+
+> Add your dashboard screenshot below.
+
+```markdown
 ![Dashboard](Images/dashboard.png)
-🚀 Future Improvements
-Implement Medallion Architecture (Bronze, Silver, Gold)
-Build incremental data pipelines
-Add Data Factory pipelines
-Automate notebook execution
-Integrate Real-Time Analytics
-Expand dashboard with advanced KPIs
-👨‍💻 Author
-Akash Nath
-If you found this project helpful, feel free to ⭐ the repository and connect with me on LinkedIn.
+```
+
+---
+
+## 🎯 Learning Outcome
+
+This project focuses on understanding the Microsoft Fabric platform and its core components, including Lakehouse, Spark, Delta Tables, and Power BI, while building a complete end-to-end data engineering workflow.
+
+---
+
+## 🔮 Future Enhancements
+
+- Implement Bronze, Silver, and Gold architecture
+- Build automated Fabric Pipelines
+- Implement Incremental Data Loading
+- Add Real-Time Analytics
+- Expand the dashboard with advanced KPIs
+
+---
+
+## 👨‍💻 Author
+
+**Akash Nath**
+
+If you found this project useful, feel free to ⭐ this repository and connect with me on LinkedIn.
