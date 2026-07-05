@@ -32,7 +32,7 @@ from pyspark.sql.types import *
 # 2️⃣ Read Parquet Files from Microsoft Fabric Lakehouse
 
 ```python
-path = "abfss://ecomfab@onelake.dfs.fabric.microsoft.com/fabecom_project.Lakehouse/Files/Bronze/"
+path = "abfss://your file path/"
 
 customers_raw = spark.read.parquet(path + "customers.parquet")
 orders_raw = spark.read.parquet(path + "orders.parquet")
